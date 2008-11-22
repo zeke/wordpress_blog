@@ -1,3 +1,7 @@
 h1. My Wordpress Blog
 
 This is basically vanilla WordPress, version 2.6.3. I created a repo for it here on Github because I want to create and test a theme locally, without having to upload my changes via FTP every time I want to make and preview a change.
+
+h2. Tips
+
+* The blog's URL is "zeke.sikelianos.com":http://zeke.sikelianos.com, but the wordpress files are contained in a /wordpress subdirectory. So index.php and .htaccess have been copied out of the wordpress directory and into the toplevel public directory of the server, and they're not contained in this repository. index.php has been re-written to redirect to zeke.sikelianos.com, should anyone try to hit zeke.sikelianos.com/wordpress for whatever reason.
