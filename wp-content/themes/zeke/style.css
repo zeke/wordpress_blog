@@ -229,7 +229,7 @@ body {
 	float: left;
 	padding: 0 0 20px 0px;
 	margin: 0px 0 0;
-	width: 450px;
+	width: 495px;
 	}
 
 .widecolumn {
@@ -436,6 +436,14 @@ html>body .entry li {
 ol li, #sidebar ul ol li {
 	list-style: decimal outside;
 	}
+
+#sidebar ul.iconed li {
+  padding: 10px 0 10px 20px;
+}
+
+#sidebar ul.iconed li.flickr {
+  background: transparent url(http://www.google.com/s2/favicons?domain=flickr.com) no-repeat left center;
+}
 
 #sidebar ul ul li, #sidebar ul ol li {
 	margin: 3px 0 0;
