@@ -84,8 +84,8 @@ small {
 
 h1, h2, h3 {
 	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
-	font-weight: bold;
-	}
+	font-weight: normal;
+  }
 
 h1 {
 	font-size: 4em;
@@ -245,7 +245,7 @@ body {
 
 .narrowcolumn {
 	float: left;
-	padding: 0 0 20px 45px;
+	padding: 0 0 20px 0;
 	margin: 0px 0 0;
 	width: 450px;
 	}

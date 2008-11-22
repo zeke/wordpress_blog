@@ -74,7 +74,7 @@ small {
 
 h1, h2, h3 {
   font-family: Georgia, "Times New Roman", serif;
-	font-weight: bold;
+	font-weight: normal;
 	}
 
 h1 {
@@ -97,7 +97,7 @@ h2.pagetitle {
 
 #sidebar h2 {
 	font-family: Georgia, "Times New Roman", serif;
-	font-size: 1.2em;
+/*  font-size: 1.2em;*/
 	}
 
 h3 {
@@ -175,12 +175,12 @@ acronym, abbr, span.caps
 	}
 
 a, h2 a:hover, h3 a:hover {
-	color: #06c;
+	color: #998675;
 	text-decoration: none;
 	}
 
 a:hover {
-	color: #147;
+	color: #29ABE2;
 	text-decoration: underline;
 	}
 
@@ -235,7 +235,7 @@ body {
 
 .narrowcolumn {
 	float: left;
-	padding: 0 0 20px 45px;
+	padding: 0 0 20px 0px;
 	margin: 0px 0 0;
 	width: 450px;
 	}
@@ -423,6 +423,11 @@ html>body .entry li {
 	list-style-image: none;
 	margin-bottom: 15px;
 	}
+
+#sidebar ul li a {
+  font-size: 1.1em;
+	}
+
 
 #sidebar ul p, #sidebar ul select {
 	margin: 5px 0 8px;
