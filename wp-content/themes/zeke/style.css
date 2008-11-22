@@ -25,6 +25,7 @@ body {
 	}
 
 #header {
+  background: transparent url('images/header.png') no-repeat left center;
 	/*background: #73a0c5 url('images/kubrickheader.jpg') no-repeat bottom center;*/
 	}
 

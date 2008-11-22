@@ -4,6 +4,6 @@ This is basically vanilla WordPress, version 2.6.3. I created a repo for it here
 
 h2. Tips/Gotchas
 
-* The blog's URL is "zeke.sikelianos.com":http://zeke.sikelianos.com, but the wordpress files are contained in a /wordpress subdirectory. So index.php and .htaccess have been copied out of the wordpress directory and into the toplevel public directory of the server, and they're not contained in this repository. index.php has been re-written to redirect to zeke.sikelianos.com, should anyone try to hit zeke.sikelianos.com/wordpress for whatever reason.
+* The blog's URL is "zeke.sikelianos.com":http://zeke.sikelianos.com, but the wordpress files are contained in a /wordpress subdirectory. So index.php and .htaccess have been copied out of the wordpress directory and into the toplevel public directory of the server, and they're not contained in this repository. index.php has been re-written to redirect to zeke.sikelianos.com, should anyone try to hit zeke.sikelianos.com/wordpress for whatever reason. More details on this can be found on the "WordPress Codex":http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory
 
 * Remember to check in changes from the server periodically, as its files are likely to change periodically when settings are tweaked or plugins are added.
