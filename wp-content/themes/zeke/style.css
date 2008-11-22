@@ -29,12 +29,6 @@ body {
 	/*background: #73a0c5 url('images/kubrickheader.jpg') no-repeat bottom center;*/
 	}
 
-#headerimg 	{
-	margin: 7px 9px 0;
-	height: 192px;
-	width: 740px;
-	}
-
 #content {
 	font-size: 1.4em
 	}
@@ -44,7 +38,7 @@ body {
 	}
 
 .narrowcolumn .entry, .widecolumn .entry {
-	line-height: 1.7em;
+	line-height: 1.5em;
 	}
 
 .widecolumn {
@@ -52,7 +46,7 @@ body {
 	}
 
 .narrowcolumn .postmetadata {
-	text-align: center;
+/*  text-align: center;*/
 	}
 
 .alt {
@@ -67,8 +61,6 @@ body {
 	}
 
 small {
-	font-family: Arial, Helvetica, Sans-Serif;
-	font-size: 0.9em;
 	line-height: 1.5em;
 	}
 
@@ -174,13 +166,13 @@ acronym, abbr, span.caps
 	letter-spacing: .07em;
 	}
 
-a, h2 a:hover, h3 a:hover {
-	color: #998675;
+a {
+	color: #603813; /*brown*/
 	text-decoration: none;
 	}
 
 a:hover {
-	color: #29ABE2;
+	color: #29ABE2; /*blue*/
 	text-decoration: underline;
 	}
 
@@ -223,7 +215,7 @@ body {
 	/*background-color: #73a0c5;*/
 	margin: 0 0 0 1px;
 	padding: 0;
-	height: 200px;
+	height: 120px;
 	width: 758px;
 	}
 
