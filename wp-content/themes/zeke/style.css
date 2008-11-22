@@ -437,13 +437,36 @@ ol li, #sidebar ul ol li {
 	list-style: decimal outside;
 	}
 
+
+#sidebar ul.iconed {
+  list-style-type: none;
+}
+
 #sidebar ul.iconed li {
-  padding: 10px 0 10px 20px;
+  padding: 5px 0 5px 14px;
 }
 
 #sidebar ul.iconed li.flickr {
   background: transparent url(http://www.google.com/s2/favicons?domain=flickr.com) no-repeat left center;
 }
+
+#sidebar ul.iconed li.twitter {
+  background: transparent url(http://www.google.com/s2/favicons?domain=twitter.com) no-repeat left center;
+}
+
+#sidebar ul.iconed li.lastfm {
+  background: transparent url(http://www.google.com/s2/favicons?domain=lastfm.com) no-repeat left center;
+}
+
+#sidebar ul.iconed li.delicious {
+  background: transparent url(http://www.google.com/s2/favicons?domain=delicious.com) no-repeat left center;
+}
+
+#sidebar ul.iconed li.github {
+  background: transparent url(http://www.google.com/s2/favicons?domain=github.com) no-repeat left center;
+}
+
+
 
 #sidebar ul ul li, #sidebar ul ol li {
 	margin: 3px 0 0;
