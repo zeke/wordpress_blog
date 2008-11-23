@@ -466,6 +466,11 @@ ol li, #sidebar ul ol li {
   background: transparent url(http://www.google.com/s2/favicons?domain=github.com) no-repeat left center;
 }
 
+#sidebar ul.iconed li.queriac {
+  background: transparent url(http://www.google.com/s2/favicons?domain=queri.ac) no-repeat left center;
+}
+
+
 
 
 #sidebar ul ul li, #sidebar ul ol li {
