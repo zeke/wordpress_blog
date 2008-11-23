@@ -438,45 +438,6 @@ ol li, #sidebar ul ol li {
 	}
 
 
-ul#stalkme {
-  list-style-type: none;
-  list-style-position: inside;
-  list-style-image: none;
-}
-
-ul#stalkme li  {
-  padding: 5px 0 5px 0;
-}
-
-ul#stalkme li a {
-  padding-left: 5px 0 5px 14px;
-}
-
-ul#stalkme li.flickr {
-  background: transparent url(http://www.google.com/s2/favicons?domain=flickr.com) no-repeat left center;
-}
-
-ul#stalkme li.twitter {
-  background: transparent url(http://www.google.com/s2/favicons?domain=twitter.com) no-repeat left center;
-}
-
-ul#stalkme li.lastfm {
-  background transparent url(http://www.google.com/s2/favicons?domain=lastfm.com) no-repeat left center;
-}
-
-ul#stalkme li.delicious {
-  background: transparent url(http://www.google.com/s2/favicons?domain=delicious.com) no-repeat left center;
-}
-
-ul#stalkme li.github {
-  background: transparent url(http://www.google.com/s2/favicons?domain=github.com) no-repeat left center;
-}
-
-ul#stalkme li.queriac {
-  background: transparent url(http://www.google.com/s2/favicons?domain=queri.ac) no-repeat left center;
-}
-
-
 #sidebar ul ul li, #sidebar ul ol li {
 	margin: 3px 0 0;
 	padding: 0;
@@ -698,6 +659,47 @@ div.aligncenter {
 	margin: 0;
 }
 /* End captions */
+
+
+ul#stalkme {
+  list-style-type: none;
+  list-style-position: inside;
+  list-style-image: none;
+}
+
+ul#stalkme li  {
+  padding: 5px 0 5px 0;
+}
+
+ul#stalkme li a {
+  padding-left: 5px 0 5px 14px;
+}
+
+ul#stalkme li.flickr {
+  background: transparent url(http://www.google.com/s2/favicons?domain=flickr.com) no-repeat left center;
+}
+
+ul#stalkme li.twitter {
+  background: transparent url(http://www.google.com/s2/favicons?domain=twitter.com) no-repeat left center;
+}
+
+ul#stalkme li.lastfm {
+  background transparent url(http://www.google.com/s2/favicons?domain=lastfm.com) no-repeat left center;
+}
+
+ul#stalkme li.delicious {
+  background: transparent url(http://www.google.com/s2/favicons?domain=delicious.com) no-repeat left center;
+}
+
+ul#stalkme li.github {
+  background: transparent url(http://www.google.com/s2/favicons?domain=github.com) no-repeat left center;
+}
+
+ul#stalkme li.queriac {
+  background: transparent url(http://www.google.com/s2/favicons?domain=queri.ac) no-repeat left center;
+}
+
+
 
 
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
