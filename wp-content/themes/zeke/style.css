@@ -662,6 +662,7 @@ div.aligncenter {
 
 
 ul ul#stalkme {
+  margin: 0 !important;
   list-style-type: none !important; 
 }
 
@@ -694,7 +695,8 @@ ul ul#stalkme li.queriac {
 }
 
 ul ul#stalkme li a {
-  padding: 5px 0 5px 14px !important; 
+  padding: 5px 0 5px 22px !important; 
+  font-size: 1.2em;
 }
 
 ul, ul ul, ul ul ul, ul ul ul ul {
