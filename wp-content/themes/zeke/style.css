@@ -671,10 +671,6 @@ ul ul#stalkme li  {
   padding: 5px 0 5px 0 !important; 
 }
 
-ul ul#stalkme li a {
-  padding-left: 5px 0 5px 14px !important; 
-}
-
 ul ul#stalkme li.flickr {
   background: transparent url(http://www.google.com/s2/favicons?domain=flickr.com) no-repeat left center !important; 
 }
@@ -699,6 +695,9 @@ ul ul#stalkme li.queriac {
   background: transparent url(http://www.google.com/s2/favicons?domain=queri.ac) no-repeat left center !important; 
 }
 
+ul ul#stalkme li a {
+  padding: 5px 0 5px 14px !important; 
+}
 
 
 
