@@ -442,8 +442,20 @@ ol li, #sidebar ul ol li {
   list-style-type: none;
 }
 
-#sidebar ul.iconed li {
+#sidebar ul.iconed li a {
   padding: 5px 0 5px 14px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  list-style-position: inside;
+  list-style-image: none;
+}
+
+#sidebar ul li {
+  list-style-type: none;
+  list-style-position: inside;
+  list-style-image: none;
 }
 
 #sidebar ul.iconed li.flickr {
