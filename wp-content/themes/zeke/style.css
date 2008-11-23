@@ -678,7 +678,7 @@ ul ul#stalkme li.twitter {
 }
 
 ul ul#stalkme li.lastfm {
-  background transparent url(http://www.google.com/s2/favicons?domain=last.fm) no-repeat left center !important; 
+  background: transparent url(http://www.google.com/s2/favicons?domain=last.fm) no-repeat left center !important;
 }
 
 ul ul#stalkme li.delicious {
