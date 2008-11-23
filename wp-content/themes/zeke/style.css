@@ -152,9 +152,9 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
   font: 1em Georgia, "Times New Roman", serif;
 	}
 
-small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+small {
 	color: #777;
-	}
+}
 
 code {
 	font: 1.1em 'Courier New', Courier, Fixed;
@@ -438,51 +438,43 @@ ol li, #sidebar ul ol li {
 	}
 
 
-#sidebar ul.iconed {
-  list-style-type: none;
-}
-
-#sidebar ul.iconed li a {
-  padding: 5px 0 5px 14px;
-}
-
-#sidebar ul {
+ul#stalkme {
   list-style-type: none;
   list-style-position: inside;
   list-style-image: none;
 }
 
-#sidebar ul li {
-  list-style-type: none;
-  list-style-position: inside;
-  list-style-image: none;
+ul#stalkme li  {
+  padding: 5px 0 5px 0;
 }
 
-#sidebar ul.iconed li.flickr {
+ul#stalkme li a {
+  padding-left: 5px 0 5px 14px;
+}
+
+ul#stalkme li.flickr {
   background: transparent url(http://www.google.com/s2/favicons?domain=flickr.com) no-repeat left center;
 }
 
-#sidebar ul.iconed li.twitter {
+ul#stalkme li.twitter {
   background: transparent url(http://www.google.com/s2/favicons?domain=twitter.com) no-repeat left center;
 }
 
-#sidebar ul.iconed li.lastfm {
-  background: transparent url(http://www.google.com/s2/favicons?domain=lastfm.com) no-repeat left center;
+ul#stalkme li.lastfm {
+  background transparent url(http://www.google.com/s2/favicons?domain=lastfm.com) no-repeat left center;
 }
 
-#sidebar ul.iconed li.delicious {
+ul#stalkme li.delicious {
   background: transparent url(http://www.google.com/s2/favicons?domain=delicious.com) no-repeat left center;
 }
 
-#sidebar ul.iconed li.github {
+ul#stalkme li.github {
   background: transparent url(http://www.google.com/s2/favicons?domain=github.com) no-repeat left center;
 }
 
-#sidebar ul.iconed li.queriac {
+ul#stalkme li.queriac {
   background: transparent url(http://www.google.com/s2/favicons?domain=queri.ac) no-repeat left center;
 }
-
-
 
 
 #sidebar ul ul li, #sidebar ul ol li {
