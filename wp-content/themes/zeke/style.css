@@ -663,8 +663,6 @@ div.aligncenter {
 
 ul ul#stalkme {
   list-style-type: none !important; 
-  list-style-position: inside !important; 
-  list-style-image: none !important; 
 }
 
 ul ul#stalkme li  {
@@ -680,7 +678,7 @@ ul ul#stalkme li.twitter {
 }
 
 ul ul#stalkme li.lastfm {
-  background transparent url(http://www.google.com/s2/favicons?domain=lastfm.com) no-repeat left center !important; 
+  background transparent url(http://www.google.com/s2/favicons?domain=last.fm) no-repeat left center !important; 
 }
 
 ul ul#stalkme li.delicious {
@@ -697,6 +695,10 @@ ul ul#stalkme li.queriac {
 
 ul ul#stalkme li a {
   padding: 5px 0 5px 14px !important; 
+}
+
+ul, ul ul, ul ul ul, ul ul ul ul {
+  list-style-type: none !important; 
 }
 
 
