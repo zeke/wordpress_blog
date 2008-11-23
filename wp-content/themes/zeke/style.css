@@ -661,42 +661,42 @@ div.aligncenter {
 /* End captions */
 
 
-ul#stalkme {
-  list-style-type: none;
-  list-style-position: inside;
-  list-style-image: none;
+ul ul#stalkme {
+  list-style-type: none !important; 
+  list-style-position: inside !important; 
+  list-style-image: none !important; 
 }
 
-ul#stalkme li  {
-  padding: 5px 0 5px 0;
+ul ul#stalkme li  {
+  padding: 5px 0 5px 0 !important; 
 }
 
-ul#stalkme li a {
-  padding-left: 5px 0 5px 14px;
+ul ul#stalkme li a {
+  padding-left: 5px 0 5px 14px !important; 
 }
 
-ul#stalkme li.flickr {
-  background: transparent url(http://www.google.com/s2/favicons?domain=flickr.com) no-repeat left center;
+ul ul#stalkme li.flickr {
+  background: transparent url(http://www.google.com/s2/favicons?domain=flickr.com) no-repeat left center !important; 
 }
 
-ul#stalkme li.twitter {
-  background: transparent url(http://www.google.com/s2/favicons?domain=twitter.com) no-repeat left center;
+ul ul#stalkme li.twitter {
+  background: transparent url(http://www.google.com/s2/favicons?domain=twitter.com) no-repeat left center !important; 
 }
 
-ul#stalkme li.lastfm {
-  background transparent url(http://www.google.com/s2/favicons?domain=lastfm.com) no-repeat left center;
+ul ul#stalkme li.lastfm {
+  background transparent url(http://www.google.com/s2/favicons?domain=lastfm.com) no-repeat left center !important; 
 }
 
-ul#stalkme li.delicious {
-  background: transparent url(http://www.google.com/s2/favicons?domain=delicious.com) no-repeat left center;
+ul ul#stalkme li.delicious {
+  background: transparent url(http://www.google.com/s2/favicons?domain=delicious.com) no-repeat left center !important; 
 }
 
-ul#stalkme li.github {
-  background: transparent url(http://www.google.com/s2/favicons?domain=github.com) no-repeat left center;
+ul ul#stalkme li.github {
+  background: transparent url(http://www.google.com/s2/favicons?domain=github.com) no-repeat left center !important; 
 }
 
-ul#stalkme li.queriac {
-  background: transparent url(http://www.google.com/s2/favicons?domain=queri.ac) no-repeat left center;
+ul ul#stalkme li.queriac {
+  background: transparent url(http://www.google.com/s2/favicons?domain=queri.ac) no-repeat left center !important; 
 }
 
 
