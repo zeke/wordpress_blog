@@ -13,20 +13,17 @@ Author URI: http://zeke.sikelianos.com/
 body {
 	font-size: 62.5%; /* Resets 1em to 10px */
   font-family: Georgia, "Times New Roman", serif;
-/*  background: #d5d6d7 url('images/kubrickbgcolor.jpg');*/
 	color: #333;
 	text-align: center;
 	}
 
 #page {
 	background-color: white;
-/*  border: 1px solid #959596;*/
 	text-align: left;
 	}
 
 #header {
   background: transparent url('images/header.png') no-repeat left center;
-	/*background: #73a0c5 url('images/kubrickheader.jpg') no-repeat bottom center;*/
 	}
 
 #content {
@@ -56,7 +53,6 @@ body {
 	}
 
 #footer {
-	/*background: #eee url('images/kubrickfooter.jpg') no-repeat top;*/
 	border: none;
 	}
 
@@ -89,7 +85,6 @@ h2.pagetitle {
 
 #sidebar h2 {
 	font-family: Georgia, "Times New Roman", serif;
-/*  font-size: 1.2em;*/
 	}
 
 h3 {
@@ -110,7 +105,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 .entry p a:visited {
-	color: #b85b5a;
+	color: #29ABE2;
 	}
 
 .commentlist li, #commentform input, #commentform textarea {
@@ -533,7 +528,7 @@ select {
 #sidebar
 {
 	padding: 20px 0 10px 0;
-	margin-left: 545px;
+	margin-left: 595px;
 	width: 240px;
 	}
 
@@ -687,4 +682,11 @@ ul#stalkme li a {
 
 .textwidget {
   font-size: 1.4em;
+}
+
+img.heading {
+  display: block;
+  float:none;
+  clear:both;
+  margin: 5px 0 10px 0;
 }
