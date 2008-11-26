@@ -207,7 +207,7 @@ body {
 	background-color: white;
 	margin: 20px auto;
 	padding: 0;
-	width: 760px;
+	width: 860px;
 	/*border: 1px solid #959596;*/
 	}
 
@@ -215,8 +215,8 @@ body {
 	/*background-color: #73a0c5;*/
 	margin: 0 0 0 1px;
 	padding: 0;
-	height: 120px;
-	width: 758px;
+	height: 100px;
+	width: 858px;
 	}
 
 #headerimg {
@@ -229,7 +229,7 @@ body {
 	float: left;
 	padding: 0 0 20px 0px;
 	margin: 0px 0 0;
-	width: 495px;
+	width: 545px;
 	}
 
 .widecolumn {
@@ -410,7 +410,7 @@ html>body .entry li {
 	list-style-type: none;
 	list-style-image: none;
 	margin-bottom: 15px;
-	border-top: 5px solid #E6E6E6;
+	border-top: 5px solid black;
 }
 
 #sidebar ul ul li {
@@ -534,7 +534,7 @@ select {
 {
 	padding: 20px 0 10px 0;
 	margin-left: 545px;
-	width: 190px;
+	width: 240px;
 	}
 
 #sidebar form {
@@ -682,9 +682,9 @@ ul#stalkme li.iusethis { background-image: url(http://www.google.com/s2/favicons
 
 ul#stalkme li a {
   padding: 5px 0 5px 22px !important; 
-  font-size: 1.2em;
+  font-size: .9em;
 }
 
 .textwidget {
-  font-size: 1.1em;
+  font-size: 1.4em;
 }
