@@ -385,10 +385,6 @@ html>body .entry li {
 	margin: 7px 0 8px 10px;
 	}
 
-.entry ul li:before, #sidebar ul ul li:before {
-/*  content: "\00BB \0020";*/
-	}
-
 .entry ol {
 	padding: 0 0 0 35px;
 	margin: 0;
@@ -414,7 +410,12 @@ html>body .entry li {
 	list-style-type: none;
 	list-style-image: none;
 	margin-bottom: 15px;
-	}
+	border-top: 5px solid #E6E6E6;
+}
+
+#sidebar ul ul li {
+	border: none !important;
+}
 
 #sidebar ul li a {
   font-size: 1.1em;
@@ -661,55 +662,29 @@ div.aligncenter {
 /* End captions */
 
 
-ul ul#stalkme {
+ul#stalkme {
   margin: 0 !important;
   list-style-type: none !important; 
 }
 
-ul ul#stalkme li  {
-  padding: 5px 0 5px 0 !important; 
+ul#stalkme li  {
+  padding: 5px 0 5px 0 !important;
+  background: transparent url(images/blank_favicon.png) no-repeat left center; 
 }
 
-ul ul#stalkme li.flickr {
-  background: transparent url(http://www.google.com/s2/favicons?domain=flickr.com) no-repeat left center !important; 
-}
+ul#stalkme li.flickr { background-image: url(http://www.google.com/s2/favicons?domain=flickr.com); }
+ul#stalkme li.twitter { background-image: url(http://www.google.com/s2/favicons?domain=twitter.com); }
+ul#stalkme li.lastfm { background-image: url(http://www.google.com/s2/favicons?domain=last.fm); }
+ul#stalkme li.delicious { background-image: url(http://www.google.com/s2/favicons?domain=delicious.com); }
+ul#stalkme li.github { background-image: url(http://www.google.com/s2/favicons?domain=github.com); }
+ul#stalkme li.queriac { background-image: url(http://www.google.com/s2/favicons?domain=queri.ac); }
+ul#stalkme li.iusethis { background-image: url(http://www.google.com/s2/favicons?domain=iusethis.com); }
 
-ul ul#stalkme li.twitter {
-  background: transparent url(http://www.google.com/s2/favicons?domain=twitter.com) no-repeat left center !important; 
-}
-
-ul ul#stalkme li.lastfm {
-  background: transparent url(http://www.google.com/s2/favicons?domain=last.fm) no-repeat left center !important;
-}
-
-ul ul#stalkme li.delicious {
-  background: transparent url(http://www.google.com/s2/favicons?domain=delicious.com) no-repeat left center !important; 
-}
-
-ul ul#stalkme li.github {
-  background: transparent url(http://www.google.com/s2/favicons?domain=github.com) no-repeat left center !important; 
-}
-
-ul ul#stalkme li.queriac {
-  background: transparent url(http://www.google.com/s2/favicons?domain=queri.ac) no-repeat left center !important; 
-}
-
-ul ul#stalkme li.iusethis {
-  background: transparent url(http://www.google.com/s2/favicons?domain=iusethis.com) no-repeat left center !important; 
-}
-
-
-ul ul#stalkme li a {
+ul#stalkme li a {
   padding: 5px 0 5px 22px !important; 
   font-size: 1.2em;
 }
 
-ul, ul ul, ul ul ul, ul ul ul ul {
-  list-style-type: none !important; 
+.textwidget {
+  font-size: 1.1em;
 }
-
-
-
-/* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
-	It won't be a stylish marriage, I can't afford a carriage.
-	But you'll look sweet upon the seat of a bicycle built for two." */
