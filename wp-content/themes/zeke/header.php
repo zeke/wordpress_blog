@@ -16,6 +16,6 @@
 <div id="page">
 
 <div id="header">
-  <a href="<?php bloginfo('template_url'); ?>/images/header.png"></a>
+  <a href="http://zeke.sikelianos.com"><img src="<?php bloginfo('template_url'); ?>/images/header.png"></img></a>
 </div>
 <hr />
