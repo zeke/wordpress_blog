@@ -16,5 +16,6 @@
 <div id="page">
 
 <div id="header">
+  <a href="<?php bloginfo('template_url'); ?>/images/header.png"></a>
 </div>
 <hr />
