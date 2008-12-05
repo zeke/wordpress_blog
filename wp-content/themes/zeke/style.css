@@ -93,7 +93,7 @@ h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
 	}
 
 h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
-	color: #333;
+	color: #754C24;
 	}
 
 h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
@@ -206,11 +206,11 @@ body {
 	/*background-color: #73a0c5;*/
 	margin: 0 0 0 1px;
 	padding: 0;
-	height: 100px;
+	height: 240px;
 	width: 858px;
 	}
 
-#headerimg {
+#header img {
 	margin: 0;
 	height: 200px;
 	width: 100%;
@@ -677,7 +677,13 @@ ul#stalkme li a {
 }
 
 .textwidget {
-  font-size: 1.4em;
+  font-size: 1.3em;
+}
+
+.textwidget p {
+  color: #754C24;
+  line-height: 1.4em;
+  margin-top: 15px;
 }
 
 img.heading {
