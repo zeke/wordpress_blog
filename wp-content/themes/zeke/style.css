@@ -335,7 +335,7 @@ p img {
 	thought?!) align the image to the right. And using 'class="centered',
 	will of course center the image. This is much better than using
 	align="center", being much more futureproof (and valid) */
-img a, img a:hover {
+a img, a:hover img, {
   border: none;
   background: none;
 }
