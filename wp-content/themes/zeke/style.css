@@ -80,8 +80,11 @@ h2.pagetitle {
 	}
 
 #sidebar h2 {
+  color: #A67C52;
+	margin: 5px 0 0;
+	padding: 0;
 	font-family: Georgia, "Times New Roman", serif;
-	}
+}
 
 h3 {
 	font-size: 1.3em;
@@ -100,8 +103,13 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	text-decoration: none;
 	}
 
-.entry p a:visited {
-	color: #29ABE2;
+.entry p {
+	color: #666;
+	}
+
+.entry p a {
+  background-color: #FCE600;
+	color: #000;
 	}
 
 .commentlist li, #commentform input, #commentform textarea {
@@ -293,7 +301,7 @@ h1 {
 	}
 
 h2 {
-	margin: 30px 0 0;
+	margin: 0px 0 0;
 	}
 
 h2.pagetitle {
@@ -301,10 +309,6 @@ h2.pagetitle {
 	text-align: center;
 }
 
-#sidebar h2 {
-	margin: 5px 0 0;
-	padding: 0;
-	}
 
 h3 {
 	padding: 0;
@@ -684,6 +688,7 @@ ul#stalkme li a {
   color: #754C24;
   line-height: 1.4em;
   margin-top: 15px;
+  font-size: 1.3em;
 }
 
 img.heading {
