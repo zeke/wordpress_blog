@@ -340,6 +340,10 @@ a.img, a.img:hover {
   background: none;
 }
 
+a img {
+  border: none;
+}
+
 img.centered {
 	display: block;
 	margin-left: auto;
