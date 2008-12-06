@@ -108,15 +108,16 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 .entry a {
-  padding: 2px;
-	color: #000;
-	border-bottom: 1px dashed black;
+  padding: 1px;
+	color: #333;
+	border: none;
+  border-bottom: 1px dashed #666;
 	}
 
 .entry a:hover, .entry a:active {
-	color: #000;
+	color: #E4018B;
   background-color: #FCE600;
-	border-bottom: 1px solid #FCE600;
+  border-bottom: 1px solid #FCE600;
 	}
 
 .commentlist li, #commentform input, #commentform textarea {
@@ -413,7 +414,7 @@ html>body .entry li {
 }
 
 #sidebar ul li a {
-  font-size: 1.1em;
+  font-size: 1.3em;
 	}
 
 
@@ -422,7 +423,7 @@ html>body .entry li {
 	}
 
 #sidebar ul ul, #sidebar ul ol {
-	margin: 5px 0 0 10px;
+	margin: 0 0 0 10px;
 	}
 
 #sidebar ul ul ul, #sidebar ul ol {
@@ -433,6 +434,11 @@ ol li, #sidebar ul ol li {
 	list-style: decimal outside;
 	}
 
+
+li#recent-posts ul li {
+  padding: 10px 0 10px 0 !important;
+  border-bottom: 1px solid #D3C3A3 !important;
+}
 
 #sidebar ul ul li, #sidebar ul ol li {
 	margin: 3px 0 0;
