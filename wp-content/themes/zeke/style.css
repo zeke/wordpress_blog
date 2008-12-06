@@ -335,6 +335,10 @@ p img {
 	thought?!) align the image to the right. And using 'class="centered',
 	will of course center the image. This is much better than using
 	align="center", being much more futureproof (and valid) */
+img a, img a:hover {
+  border: none;
+  background: none;
+}
 
 img.centered {
 	display: block;
@@ -365,20 +369,9 @@ img.alignleft {
 
 
 
-/* Begin Lists
-
-	Special stylized non-IE bullets
-	Do not work in Internet Explorer, which merely default to normal bullets. */
-
-html>body .entry ul {
-	margin-left: 0px;
-	padding: 0 0 0 30px;
-	list-style: none;
-	padding-left: 10px;
-	text-indent: -10px;
-	}
 
 html>body .entry li {
+  color: #CCC;
 	margin: 7px 0 8px 10px;
 	}
 
