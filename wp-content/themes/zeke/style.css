@@ -423,7 +423,7 @@ html>body .entry li {
 	}
 
 #sidebar ul ul, #sidebar ul ol {
-	margin: 0 0 0 10px;
+	margin: 0 0 0 0px;
 	}
 
 #sidebar ul ul ul, #sidebar ul ol {
@@ -436,7 +436,7 @@ ol li, #sidebar ul ol li {
 
 
 li#recent-posts ul li {
-  padding: 10px 0 10px 0 !important;
+  padding: 5px 0 5px 0 !important;
   border-bottom: 1px solid #D3C3A3 !important;
 }
 
