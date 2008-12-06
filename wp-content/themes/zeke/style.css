@@ -108,8 +108,16 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 .entry p a {
-  background-color: #FCE600;
+  padding: 2px;
 	color: #000;
+	background: none;
+	border-bottom: 1px dashed black;
+	}
+
+.entry p a:hover, .entry p a:active, {
+	color: #000;
+  background-color: #FCE600;
+	border-bottom: 1px solid #FCE600;
 	}
 
 .commentlist li, #commentform input, #commentform textarea {
@@ -227,8 +235,8 @@ body {
 .narrowcolumn {
 	float: left;
 	padding: 0 0 20px 0px;
-	margin: 0px 0 0 5px;
-	width: 555px;
+	margin: 0px 0 0 25px;
+	width: 500px;
 	}
 
 .widecolumn {
@@ -406,6 +414,7 @@ html>body .entry li {
 	list-style-image: none;
 	margin: 0 0 30px 0;
 	border-top: 5px solid #A67C52;
+	padding-top: 10px;
 }
 
 #sidebar ul ul li {
@@ -529,7 +538,7 @@ select {
 {
 	padding: 20px 0 10px 0;
 	margin-left: 595px;
-	width: 260px;
+	width: 245px;
 	}
 
 #sidebar form {
@@ -688,7 +697,7 @@ ul#stalkme li a {
   color: #754C24;
   line-height: 1.4em;
   margin-top: 15px;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 img.heading {
