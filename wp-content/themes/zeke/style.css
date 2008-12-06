@@ -177,11 +177,6 @@ a {
 	text-decoration: none;
 	}
 
-a:hover {
-	color: #29ABE2; /*blue*/
-	text-decoration: underline;
-	}
-
 #wp-calendar #prev a, #wp-calendar #next a {
 	font-size: 9pt;
 	}
