@@ -110,7 +110,6 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 .entry p a {
   padding: 2px;
 	color: #000;
-	background: none;
 	border-bottom: 1px dashed black;
 	}
 
