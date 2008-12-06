@@ -107,13 +107,13 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	color: #666;
 	}
 
-.entry p a {
+.entry a {
   padding: 2px;
 	color: #000;
 	border-bottom: 1px dashed black;
 	}
 
-.entry p a:hover, .entry p a:active {
+.entry a:hover, .entry a:active {
 	color: #000;
   background-color: #FCE600;
 	border-bottom: 1px solid #FCE600;
@@ -371,12 +371,12 @@ img.alignleft {
 
 
 html>body .entry li {
-  color: #CCC;
+  color: #666;
 	margin: 7px 0 8px 10px;
 	}
 
 .entry ol {
-	padding: 0 0 0 35px;
+	padding: 0 0 0 10px;
 	margin: 0;
 	}
 
