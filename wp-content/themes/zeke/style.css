@@ -105,13 +105,16 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 
 .entry p {
 	color: #666;
-	}
+	font-family: Verdana;
+	font-size: .8em;
+	line-height: 1.8em;
+}
 
 .entry a {
   padding: 1px;
 	color: #333;
 	border: none;
-  border-bottom: 1px dashed #666;
+  border-bottom: 1px dashed #999;
 	}
 
 .entry a:hover, .entry a:active {
@@ -153,10 +156,6 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 
 .commentmetadata {
 	font-weight: normal;
-	}
-
-#sidebar {
-  font: 1em Georgia, "Times New Roman", serif;
 	}
 
 small {
@@ -209,7 +208,7 @@ body {
 	background-color: white;
 	margin: 0 auto;
 	padding: 0;
-	width: 860px;
+	width: 952px;
 	/*border: 1px solid #959596;*/
 	}
 
@@ -218,20 +217,18 @@ body {
 	margin: 0 0 0 1px;
 	padding: 0;
 	height: 240px;
-	width: 858px;
+	width: 950px;
 	}
 
 #header img {
 	margin: 0;
-	height: 200px;
-	width: 100%;
-	}
+}
 
 .narrowcolumn {
 	float: left;
 	padding: 0 0 20px 0px;
 	margin: 0px 0 0 25px;
-	width: 500px;
+	width: 580px;
 	}
 
 .widecolumn {
@@ -529,19 +526,16 @@ select {
 /* End Comments */
 
 
-
-/* Begin Sidebar */
-#sidebar
-{
+#sidebar {
 	padding: 20px 0 10px 0;
 	margin-left: 595px;
-	width: 245px;
-	}
+	width: 257px;
+  font: 1em Georgia, "Times New Roman", serif;
+}
 
 #sidebar form {
 	margin: 0;
-	}
-/* End Sidebar */
+}
 
 
 
