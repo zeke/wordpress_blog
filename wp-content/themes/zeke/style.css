@@ -227,8 +227,8 @@ body {
 .narrowcolumn {
 	float: left;
 	padding: 0 0 20px 0px;
-	margin: 0px 0 0 25px;
-	width: 580px;
+	margin: 0px 0 0 20px;
+	width: 600px;
 	}
 
 .widecolumn {
@@ -411,8 +411,10 @@ html>body .entry li {
 }
 
 #sidebar ul li a {
-  font-size: 1.3em;
-	}
+  color:#666666;
+  font-family:Verdana;
+  font-size:1.1em;  
+}
 
 
 #sidebar ul p, #sidebar ul select {
@@ -528,8 +530,8 @@ select {
 
 #sidebar {
 	padding: 20px 0 10px 0;
-	margin-left: 595px;
-	width: 257px;
+	margin-left: 670px;
+	width: 280px;
   font: 1em Georgia, "Times New Roman", serif;
 }
 
@@ -590,6 +592,12 @@ blockquote {
 	padding-left: 20px;
 	border-left: 5px solid #ddd;
 	}
+	
+blockquote p {
+  font-style: italic;
+  color: #999;
+  font-size: 1em;
+}
 
 blockquote cite {
 	margin: 5px 0 0;
@@ -655,7 +663,7 @@ div.aligncenter {
 
 
 ul#stalkme {
-  margin: 0 !important;
+  margin: 10px 0 0 10px !important
   list-style-type: none !important; 
 }
 
@@ -674,7 +682,7 @@ ul#stalkme li.iusethis { background-image: url(http://www.google.com/s2/favicons
 
 ul#stalkme li a {
   padding: 5px 0 5px 22px !important; 
-  font-size: .9em;
+  font-size: .8em;
 }
 
 .textwidget {
