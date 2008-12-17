@@ -106,7 +106,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 .entry p {
 	color: #666;
 	font-family: Verdana;
-	font-size: .8em;
+	font-size: .9em;
 	line-height: 1.8em;
 }
 
@@ -375,12 +375,20 @@ img.alignleft {
 html>body .entry li {
   color: #666;
 	margin: 7px 0 8px 10px;
+	font-family: Verdana, Arial, Sans-Serif;	
+	font-size: .9em;
 	}
 
 .entry ol {
 	padding: 0 0 0 10px;
 	margin: 0;
 	}
+
+.entry ul {
+	padding: 0 0 0 10px;
+	margin: 0;
+	}
+
 
 .entry ol li {
 	margin: 0;
