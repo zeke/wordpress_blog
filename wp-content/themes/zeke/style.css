@@ -239,7 +239,7 @@ body {
 
 .post {
 	margin: 0 0 40px;
-	text-align: justify;
+/*  text-align: justify;*/
 	}
 
 .post hr {
@@ -443,9 +443,21 @@ ol li, #sidebar ul ol li {
 
 
 li#recent-posts ul li {
-  padding: 5px 0 5px 0 !important;
+  padding: 0 !important;
   border-bottom: 1px solid #D3C3A3 !important;
 }
+
+li#recent-posts ul li a {
+  padding: 5px 0 5px 0 !important;
+  background: none !important;
+}
+
+li#recent-posts ul li a:hover {
+  color: #4C2F19 !important;
+  background-color: #EDE0CC !important;
+  padding: 5px 0 5px 0 !important;
+}
+
 
 #sidebar ul ul li, #sidebar ul ol li {
 	margin: 3px 0 0;
