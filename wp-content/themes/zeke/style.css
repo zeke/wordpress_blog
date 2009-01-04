@@ -441,25 +441,11 @@ ol li, #sidebar ul ol li {
 	list-style: decimal outside;
 	}
 
-
 li#recent-posts ul li {
   padding: 0 !important;
-  border-bottom: 1px solid #D3C3A3 !important;
-  padding: 5px 0 5px 0 !important;
+  border-top: 1px solid #EDE0CC !important;
+  padding: 6px 0 !important;
 }
-
-li#recent-posts ul li a {
-/*  color: #4C2F19 !important;*/
-}
-
-li#recent-posts ul li:hover {
-  background-color: #EDE0CC !important;
-}
-
-li#recent-posts ul li a:hover {
-  color: #4C2F19 !important;
-}
-
 
 #sidebar ul ul li, #sidebar ul ol li {
 	margin: 3px 0 0;
