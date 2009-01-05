@@ -288,7 +288,7 @@ body {
 	text-align: center;
 	color: #999;
 	font-family: Verdana;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	line-height: 1.7em;
 }
 
@@ -296,9 +296,6 @@ body {
 	color: #666;
 	border-bottom: 1px dashed #999;
 }
-
-
-
 
 /*	Begin Headers */
 h1 {
