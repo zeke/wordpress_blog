@@ -718,18 +718,18 @@ img.heading {
   margin: 5px 0 10px 0;
 }
 
-.accolades div.accolade {
+div.accolade {
   clear: both;
   float: none;
   overflow: hidden;
 }
 
-.accolades div.accolade img {
+div.accolade img {
   display: block;
   float: left;
 }
 
-.accolades div.accolade div.description {
+div.accolade div.description {
   float: left;
 	color: #666;
 	font-family: Verdana;
@@ -737,6 +737,6 @@ img.heading {
 	line-height: 1.7em;
 }
 
-.accolades div.accolade div.description strong {
+div.accolade div.description strong {
 	color: #333;
 }
