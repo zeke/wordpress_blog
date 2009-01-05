@@ -276,21 +276,27 @@ body {
 
 #footer {
   border-top:5px solid #A67C52;
-	padding: 0;
-	margin: 30px auto;
+	padding: 5px;
+	margin: 60px auto 3px auto;
 	width: 950px;
 	clear: both;
+	overflow:hidden;
 }
 
 #footer p {
 	margin: 0;
-	padding: 20px 0;
 	text-align: center;
 	color: #999;
 	font-family: Verdana;
-	font-size: 1em;
+	font-size: 1.2em;
 	line-height: 1.7em;
 }
+
+#footer p a {
+	color: #666;
+	border-bottom: 1px dashed #999;
+}
+
 
 
 
