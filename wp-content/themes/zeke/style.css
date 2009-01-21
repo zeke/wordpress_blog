@@ -68,7 +68,7 @@ h1 {
 	}
 
 h2 {
-	font-size: 1.6em;
+	font-size: 1.7em;
 	}
 
 h2.pagetitle {
@@ -101,6 +101,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	font-family: Verdana;
 	font-size: .9em;
 	line-height: 1.7em;
+	margin: 5px 0;
 }
 
 .entry a {
@@ -287,6 +288,7 @@ body {
 	font-family: Verdana;
 	font-size: 1.1em;
 	line-height: 1.7em;
+	margin: 5px 0;
 }
 
 #footer p a {
@@ -311,9 +313,10 @@ h2.pagetitle {
 
 
 h3 {
+  color: #666;
 	padding: 0;
 	margin: 30px 0 0;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 h3.ruled {
@@ -617,6 +620,8 @@ blockquote p {
   font-style: italic;
   color: #999;
   font-size: 1em;
+  margin:15px 0 !important;
+  padding:5px;
 }
 
 blockquote cite {
