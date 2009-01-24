@@ -13,6 +13,7 @@
 				<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 				<?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
 
+        <!--
 				<p class="postmetadata alt">
 					<small>
 						This entry was posted
@@ -44,6 +45,7 @@
 
 					</small>
 				</p>
+			-->
 
 			</div>
 		</div>

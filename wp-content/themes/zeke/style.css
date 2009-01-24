@@ -102,7 +102,7 @@ p {
 }
 
 .entry p {
-	color: #555;
+	color: #666;
 	font-family: Verdana;
 	font-size: .9em;
 	line-height: 1.7em;
@@ -111,8 +111,9 @@ p {
 
 .entry p.caption {
   text-align: center;
-  margin: 0 0 10px 0;
-	font-size: .9em;
+  margin: 0 10px 20px 10px;
+	font-size: .8em;
+	line-height: 1.4em;
 	color: #777;	
 }
 
