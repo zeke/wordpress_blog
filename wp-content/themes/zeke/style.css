@@ -96,12 +96,24 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	text-decoration: none;
 	}
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .entry p {
-	color: #666;
+	color: #555;
 	font-family: Verdana;
 	font-size: .9em;
 	line-height: 1.7em;
 	margin: 5px 0;
+}
+
+.entry p.caption {
+  text-align: center;
+  margin: 0 0 10px 0;
+	font-size: .9em;
+	color: #777;	
 }
 
 .entry a {
