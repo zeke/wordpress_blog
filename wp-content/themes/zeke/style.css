@@ -7,8 +7,6 @@ Author: Zeke Sikelianos
 Author URI: http://zeke.sikelianos.com/
 */
 
-
-
 /* Begin Typography & Colors */
 body {
 	font-size: 62.5%; /* Resets 1em to 10px */
@@ -755,17 +753,23 @@ div.accolade img {
   float: left;
 }
 
-div.accolade div.description {
+div.accolade ul.description {
   float: left;
   margin: 20px 0 0 10px;
 	color: #666;
 	font-family: Verdana;
-	font-size: .8em;
-  line-height:1.3em;
+	list-style: none;
 }
 
-div.accolade div.description strong {
+div.accolade ul.description li.first {
 	color: #333;
 	font-weight: normal;
-	font-size: 1.1em;
+	font-size: 1.2em;
+}
+
+div.accolade ul.description li {
+	list-style: none;
+	color: #666;
+	font-weight: normal;
+	font-size: 1em;
 }
